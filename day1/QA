@@ -1,0 +1,49 @@
+What is JavaScript?
+JavaScript is a dynamic computer programming language.
+It is lightweight and most commonly used as a part of web pages,
+whose implementations allow client-side script to interact with the user and make dynamic pages.
+
+Client-side scripting
+Source code is visible to the user.
+It usually depends on the browser and its version.
+It runs on the user’s computer.
+HTML, CSS, and javascript are used.
+
+Advantages of JavaScript
+Fast speed: JavaScript is executed on the client side that’s why it is very fast.
+Easy to learn: JavaScript is easy to learn. Any one which have basic knowledge of programming can easily lean JavaScript.
+Versatility: It refers to lots of skills. It can be used in a wide range of applications.
+Browser Compatible: JavaScript supports all modern browsers. It can execute on any browser and produce same result.
+Server Load: JavaScript reduce the server load as it executes on the client side.
+Rich interfaces: JavaScript provides the drag and drop functionalities which can provides the rich look to the web pages.
+Popularity: JavaScript is a very popular web language because it is used every where on the web.
+Regular Updates: JavaScript updated annually by ECMA.
+
+Limitations of JavaScript
+For security reason, JavaScript does not allow the reading or writing of files.
+This doesn’t have any multiprocessor/multi threading capabilities.
+As there is no support available, this cannot be used for networking applications.
+Cannot access web pages hosted on a different domain.
+Cannot access databases.
+Depends a lot on the browser.
+Inability to use local devices.
+JavaScript can be disabled.
+Not Search Engine Friendly.
+JavaScript cannot protect your page source or images.
+
+Semicolons are Optional
+The reason semicolons are sometimes optional in JavaScript is because of automatic semicolon insertion, or ASI.
+ASI doesn’t mean that actual semicolons are inserted into your code,
+it’s more of a set of rules used by JavaScript that will determine whether or not a semicolon will be interpreted in certain spots.
+
+Comments in JavaScript
+comments in java script //
+
+JAVASCRIPT – Enabling
+https://www.prl.res.in/recruit/njrf2021/EnableJavaScript.htm
+
+Defer in script
+load javascript first then html load
+
+Async in script
+load html first then javascript load
