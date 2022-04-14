@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>My Web Page</title>
+<script>
+
+
+//Constructor
+function Person(){
+    this.name = "ammar",
+    this.age = "23"
+}
+
+var persons1 = new Person();
+document.write(persons1.name + "<br>");
+document.write(persons1.age);
+
+function Profile(user_name, password){
+    this.name = user_name;
+    this.pass = password;
+    this.greet = function (){
+        return ("hi" + ' ' + this.name);
+    }
+}
+
+var profile1 = new Profile("ammar", "009988");
+console.log(profile1.name);
+console.log(profile1.pass);
+console.log(profile1.greet());
+
+
+// another example
+
+//Function Literals used to create a single object.
+</script>
+</head>

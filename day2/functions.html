@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>My Web Page</title>
+<script>
+
+
+//functions
+function testFunction(){
+    document.write("display here");
+}
+testFunction();
+
+//function with parameter
+function sum(a, b){
+    document.write(a + b);
+}
+sum(40, 15);
+
+//function with parameter
+function subjectsMarks(eng, math, urdu, phy, chy){
+    var a = eng + math + urdu + phy + chy;
+    return a;
+}
+var b = subjectsMarks(50, 50, 50, 50, 50);
+
+function per(tt){
+    var c = tt/500 * 100;
+    return c;
+}
+var d = per(b);
+document.write("</br>" + "Total no is " + b);
+document.write("</br>" + "Total no is " + d + '%');
+
+
+//nested functions
+// outer function var access in inner function but inner function var not access in outer function 
+function func1(){
+    var a = 10;
+    document.write("<br>" + "This is outer function value " + a);
+
+    function func2(){
+        var ab = 15;
+        document.write("<br>" + "This is inner function value " + ab);
+        document.write("<br>" + "This is inner function value " + a);
+    }
+    func2();
+}
+
+func1();
+
+</script>
+</head>

@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>My Web Page</title>
+<script>
+
+
+
+//for loop
+for(let i = 1; i <= 10; i++){
+    if (i == 5) {
+               break;   // breaks out of loop completely
+            }
+    document.write(i);
+}
+
+// while loop
+let j = 1;
+while(j <= 10){
+    j++;
+    if (j == 5) {
+                  continue;   // skip rest of the loop body
+               }
+    document.write(j + "</br>");
+    
+}
+
+//do while loop
+
+// let k = 11;
+// do{
+//     document.write(k + "<br>")
+//     k++;
+// }while(k <= 10);
+// {
+// let password;
+// do{
+//     password = prompt("plz write correct password");
+// }while(password !== 'ammar');}
+
+//for in loop
+var b = {
+    name : "ammar",
+    fullName : "hameed",
+}
+for(var a in b){
+    document.write(b[a] + "<br>")
+}
+</script>
+</head>
