@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>My Web Page</title>
+
+<button type="submit" onclick="showtext()">Click me</button>
+
+<div onmouseover = "over()" onmouseout = "out()">
+    <h2> This is inside the division </h2>
+ </div> 
+
+
+ <h3 id="demo" onclick="myFunction()">Click me to change my color.</h3>
+<script>
+
+function showtext(){
+    document.write("test here");
+}
+
+function over() {
+   document.write ("Mouse Over");
+}            
+function out() {
+   document.write ("Mouse Out");
+}
+function myFunction(){
+   document.getElementById("demo").style.color = "red";
+}
+
+</script>
+</head>

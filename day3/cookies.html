@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>My Web Page</title>
+
+<!-- A cookie is an amount of information that persists between a server-side and a client-side. -->
+<script>
+
+document.cookie = "username=ammar13; expires=Thu, 21 Apr 2022, 12:00:00 UTC"
+
+//save cookies
+document.cookie = "loc=pakistan"
+
+//Setting Cookies Expiry Date
+document.cookie = "item=mobile; expires=Sat, 22 Apr 2022 12:00:00 UTC"
+
+// Read the cookies 
+let x = document.cookie;
+console.log(x);
+
+//delete the cookies
+document.cookie = "item=mobile; expires=Mon, 18 Apr 2022 12:00:00 UTC"
+</script>
+</head>

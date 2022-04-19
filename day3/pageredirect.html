@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>My Web Page</title>
+<button onclick="redirect()">Click Me</button>
+
+<button onclick="refreshPage()">Reload</button>
+<script>
+function redirect(){
+    window.location = "https://www.google.com/"
+    //window.location.assign("https://www.google.com/");
+    //window.location.replace("https://www.youtube.com/");
+}
+
+function refreshPage(){
+    if(confirm("are you sure Refresh page")){
+        window.location.reload();
+    }
+}
+
+function autoRefresh(){
+    window.location.reload();
+    //window.location = "https://www.google.com/"
+}
+
+//setTimeout(autoRefresh(), 3000)
+</script>
+</head>
