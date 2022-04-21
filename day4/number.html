@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>NUmbers</title>
+<script>
+
+var a = 10;
+var b = 10.5;
+var c = new Number (10);
+var d = new Number ("10");
+var f = "20";
+
+var max = Number.MAX_VALUE;
+var min = Number.MIN_VALUE;
+
+// if number divid by string its callled NaN.
+// if any digit / 0 its called infinity.
+console.log(100/0); // positive  infinity
+console.log(-5/0); // negative infinity
+
+console.log(typeof a);
+console.log(typeof b);
+console.log(typeof c);
+console.log(typeof d);
+console.log(typeof f);
+console.log(max);
+console.log(min);
+
+
+
+var Mobile = function(model_no){
+    this.model = model_no;
+    this.price = "3000";
+    this.color = "white";
+}
+
+var samsung = new Mobile("samsung");
+var nokia = new Mobile("nokia");
+var iphone = new Mobile("iphone")
+
+
+Mobile.prototype.weight = ".5kg";
+console.log(samsung);
+console.log(nokia);
+
+//toExponential  Number method that is used to convert a number to exponential notation and return its value as a string
+var a = 12345.90000;
+document.write(a.toExponential() + "</br>");
+document.write(a.toExponential(2) + "</br>");
+document.write(a.toExponential(4) + "</br>");
+
+
+//to fixed convert a number to fixed-point notation 
+var fix = 196.5823
+document.write("To fixed" + "</br>");
+document.write(fix.toFixed() + "</br>");
+document.write(fix.toFixed(3) + "</br>");
+document.write(fix.toFixed(1) + "</br>");
+
+// toLocaleString () locale-specific numeric representation
+var loc = 123456789
+document.write(loc.toLocaleString() + "</br>");
+
+//toPrecision () show all  
+var pre = 123456789
+document.write(pre.toPrecision() + "</br>");
+document.write(pre.toPrecision(2) + "</br>");
+document.write(pre.toPrecision(5) + "</br>");
+document.write(pre.toPrecision(8) + "</br>");
+
+//toString () convert number to string and binary , hex and decimal value get
+var str = 20;
+document.write("To string " + str.toString() + "<br>")
+document.write(str.toString(2) + "<br>")
+document.write(str.toString(8) + "<br>")
+document.write(str.toString(16) + "<br>")
+document.write(typeof(str.toString()) + "<br>")
+
+
+//valueOf () know the value of the variable
+var val = 10;
+document.write("Value is " + val.valueOf() + "<br>");
+</script>
+</head>

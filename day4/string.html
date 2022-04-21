@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String</title>
+</head>
+<body>
+    
+    <script>
+        var a = "ammar";
+        console.log(a);
+        console.log(typeof(a));
+        console.log(a.length);
+
+        var strngConst = new String("hello world");
+        console.log(strngConst);
+        console.log(typeof(strngConst));
+        console.log(strngConst.length);
+
+        var chr = "Sample text here Sample text here";
+        var chr2 = "sample here";
+
+        var name = "ammar hameed"
+        console.log(chr.charAt(2));
+        console.log(chr.charCodeAt());
+        console.log(chr.charCodeAt(4));
+        console.log(chr.concat(" "  + chr2));
+        console.log(chr.indexOf("m"));
+        console.log(chr.indexOf("m", 2));
+        console.log(chr.lastIndexOf("text"));
+
+        //match creata a array
+        console.log(chr.match(/Text/i));
+        console.log(chr.match(/Text/gi));
+
+        console.log(chr.startsWith("Sample"));
+        console.log(chr.endsWith("here"));
+
+         // search return position of string   
+        console.log(chr.search("here"));
+
+        console.log(chr.replace(/Sample/g , "abc"));
+
+        //trim is used for replace the space
+
+        console.log(chr.split("text"))
+        console.log(chr.repeat(3))
+
+        console.log(name.slice(0,5));
+
+        console.log(chr.toLocaleLowerCase());
+        console.log(chr.toLowerCase());
+        console.log(chr.valueOf());
+        console.log(chr.anchor());
+        console.log(chr.sub());
+        console.log(chr.sup());
+        console.log(chr.strike());
+
+        // The slice() method extracts a part of a string.
+        console.log(name.slice(0, 6));
+        // The split() method splits a string into an array of substrings.
+        console.log(name.split(" "));
+        console.log(chr.link());
+
+    </script>
+
+</body>
+</html>
