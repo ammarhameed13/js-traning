@@ -7,6 +7,28 @@
     <title>Array</title>
 </head>
 <body>
+    <!-- Array Methods
+concat () done
+every ()
+filter ()
+forEach () 
+indexOf () done
+join () done
+lastIndexOf ()  done
+map () 
+pop () done
+push () done
+reduce () 
+reduceRight ()
+reverse () 
+shift () done
+slice () done
+some ()
+sort () 
+splice () done
+toString ()
+unshift ()  done -->
+
     <script>
         let stu = ["ammar","hameed"]
         document.write(stu);
@@ -21,6 +43,42 @@
         var b = [6,7,8,9,10]
         var c = a.concat(b);
         console.log(c);
+
+        //join array convert to one value string
+        var d = c.join("-");
+        console.log(d);
+
+        
+        var persons = ["ammar","usman","rehman","azam", "ammar"];
+
+        // shift delet value in array first index
+        // persons.shift();
+        // document.write("<br>" + persons + "<br>");
+
+
+        //unshift add value in array first index
+        // document.write("<br>" + persons + "<br>");
+        // persons.unshift("adnan");
+        // document.write("<br>" + persons + "<br>");
+
+        //pop delet value in last index of array
+        // document.write("<br>" + persons + "<br>");
+        // persons.pop();
+        // document.write("<br>" + persons + "<br>");
+
+        //push add value in last index of array
+        // document.write("<br>" + persons + "<br>");
+        // persons.push("waqas");
+        // document.write("<br>" + persons + "<br>");
+
+        // var slic = persons.slice(0,3);
+        // console.log(slic)
+
+        var ind = persons.lastIndexOf("ammar", 2);
+        console.log(ind);
+        
+
+
     </script>
 </body>
 </html>
